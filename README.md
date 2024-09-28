@@ -7,7 +7,7 @@
 * Sau khi cài đặt phần mềm sẽ tạo ra cho chúng ra 2 trình command prompt để hiển thị mỗi khi lập trình cho Esp32:
   ![image](https://github.com/user-attachments/assets/81a37dcb-e5cb-4623-b240-5a10183e09de)
 > Tốt nhất khi cài đặt hãy tạo riêng 1 folder cho phần mềm để đễ dàng kiểm soát
-> Trong framework tải về nhà phát hành đã có sẵn những project nhỏ bên trong để chúng ta thực hành
+  Trong framework tải về nhà phát hành đã có sẵn những project nhỏ bên trong để chúng ta thực hành
 ## **Thực hiện cấu hình và build project blink đầu tiên** ##
 1. Vào trong folder của Esp32 đã cài đặt -> vào thư mục framworks -> `esp-idf` -> `examples` -> `get started`
 2. Copy và Paste chương trình `blink` bên trong ra ngoài song song với folder chính của Esp32:
