@@ -1,6 +1,6 @@
 # **Lập trình vi điều khiển Esp32 sử dụng framework Esp-Idf** #
 ## Esp32 Dev Board Datasheet ##
-![image](https://github.com/user-attachments/assets/5c1e2350-9764-4ce3-913f-e47da42b0f7d)
+![image](https://github.com/user-attachments/assets/78d933e0-ab94-4725-8c80-3256b728e818)
 ## **Cài đặt phần mềm** ##
 * Download phiên bản mới nhất của Espressif qua gitHub (cho Windows)"
 [Espressif gitHub](https://github.com/espressif/esp-idf)
@@ -19,7 +19,7 @@
 > idf.py: Đây là một công cụ dòng lệnh giúp quản lý toàn bộ quá trình phát triển, từ khởi tạo dự án, cấu hình, biên dịch, flash mã, đến theo dõi nhật ký từ ESP32.
 6. Sau khi chạy xong toàn bộ, màn hình command sẽ hiển thị giao diện như sau: 
 ![image](https://github.com/user-attachments/assets/840fe240-b7dc-4f69-b536-853400eaa8e4)
-7. Trong mục "Serial flasher config", chỉnh "flash size" thành 4MB. Trong "Example configuration" chuyển chân Blink GPIO thành chân 2 (lý do vì trong bản diagram của Esp32 được thiết lập sẵn chân 2 là chân led blink)
+7. Trong mục "Serial flasher config", chỉnh "flash size" thành 4MB. Trong "Example configuration" chuyển chân Blink GPIO thành chân 2 (lý do vì trong bản schematic của Esp32 được thiết lập sẵn chân 2 là chân led blink)
 8. Sau đó thoát giao diện config bằng nút "esc" trong bàn phím
 9. Sau đó dùng lệnh `idf.py build` để thực hiện build dự án blink
 > Bản chất viêc idf.py build trên command của Esp32 là máy sẽ chạy "Makefile" bên trong folder blink
