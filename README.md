@@ -29,7 +29,13 @@
 * Sau khi màn hình hiển thị ra dòng như sau:
   ![image](https://github.com/user-attachments/assets/bb562041-4b73-4902-a94a-514e729c436a)
 ### Như vậy là đèn đã blink thành công ###
-* Để thoát chương trình trên command, ta dùng tổ hợp phím "Ctrl + }" để thoát 
+* Để thoát chương trình trên command, ta dùng tổ hợp phím "Ctrl + }" để thoát
+### **Xóa các file đã build trong quá trình biên dịch trước đó** ###
+* Dùng lệnh `idf.py fullclean`
+* Khi đó terminal sẽ ra lệnh xóa toàn bộ dữ liệu cũ và đưa dự án về trạng thái ban đầu
+### **Đưa Esp32 về trạng thái ban đầu khi chưa nạp code** ###
+* Dùng lệnh `idf.py erase_flash`
+* Quá trình này sẽ xóa sạch toàn bộ bộ nhớ flash, bao gồm bootloader, firmware, và các phần dữ liệu khác.
 
 
 
